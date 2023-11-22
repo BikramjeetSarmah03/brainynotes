@@ -5,11 +5,12 @@ import { PlusIcon } from "lucide-react";
 import { useState } from "react";
 import { UserButton } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
+import { useTheme } from "next-themes";
 
 import { Button } from "@/components/ui/button";
 import AddEditNoteDialog from "@/components/notes/AddEditNoteDialog";
 import { ThemeButton } from "@/components/ui/theme-button";
-import { useTheme } from "next-themes";
+import AiChatButton from "@/components/ai/AiChatButton";
 
 export default function Navbar() {
   const { theme } = useTheme();
@@ -32,6 +33,8 @@ export default function Navbar() {
               <PlusIcon className="mr-2" size={20} />
               Add Note
             </Button>
+
+            <AiChatButton />
 
             <ThemeButton />
 
