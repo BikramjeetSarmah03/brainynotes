@@ -1,0 +1,24 @@
+{
+	"name": "@BrainyNotes/auth",
+	"type": "module",
+	"exports": {
+		".": {
+			"default": "./src/index.ts"
+		},
+		"./*": {
+			"default": "./src/*.ts"
+		}
+	},
+	"scripts": {},
+	"dependencies": {
+		"@BrainyNotes/db": "workspace:*",
+		"@BrainyNotes/env": "workspace:*",
+		"better-auth": "catalog:",
+		"dotenv": "catalog:",
+		"zod": "catalog:"
+	},
+	"devDependencies": {
+		"@BrainyNotes/config": "workspace:*",
+		"typescript": "catalog:"
+	}
+}

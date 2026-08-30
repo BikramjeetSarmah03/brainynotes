@@ -1,0 +1,3 @@
+{
+	"extends": "@BrainyNotes/config/tsconfig.base.json"
+}
