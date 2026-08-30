@@ -12,11 +12,11 @@
 	},
 	"iconLibrary": "lucide",
 	"aliases": {
-		"components": "@BrainyNotes/ui/components",
-		"utils": "@BrainyNotes/ui/lib/utils",
-		"hooks": "@BrainyNotes/ui/hooks",
-		"lib": "@BrainyNotes/ui/lib",
-		"ui": "@BrainyNotes/ui/components"
+		"components": "@brainynotes/ui/components",
+		"utils": "@brainynotes/ui/lib/utils",
+		"hooks": "@brainynotes/ui/hooks",
+		"lib": "@brainynotes/ui/lib",
+		"ui": "@brainynotes/ui/components"
 	},
 	"menuColor": "default",
 	"menuAccent": "subtle",

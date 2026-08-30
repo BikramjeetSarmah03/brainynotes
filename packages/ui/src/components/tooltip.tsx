@@ -1,7 +1,7 @@
 "use client";
 
-import { cn } from "@BrainyNotes/ui/lib/utils";
 import { Tooltip as TooltipPrimitive } from "@base-ui/react/tooltip";
+import { cn } from "@brainynotes/ui/lib/utils";
 
 function TooltipProvider({
 	delay = 0,

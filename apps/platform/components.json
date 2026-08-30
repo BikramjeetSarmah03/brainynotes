@@ -13,8 +13,8 @@
 	"iconLibrary": "lucide",
 	"aliases": {
 		"components": "@/components",
-		"utils": "@BrainyNotes/ui/lib/utils",
-		"ui": "@BrainyNotes/ui/components",
+		"utils": "@brainynotes/ui/lib/utils",
+		"ui": "@brainynotes/ui/components",
 		"lib": "@/lib",
 		"hooks": "@/hooks"
 	},

@@ -1,7 +1,7 @@
 /** biome-ignore-all lint/a11y/noLabelWithoutControl: <kk> */
 "use client";
 
-import { cn } from "@BrainyNotes/ui/lib/utils";
+import { cn } from "@brainynotes/ui/lib/utils";
 import type * as React from "react";
 
 function Label({ className, ...props }: React.ComponentProps<"label">) {

@@ -1,4 +1,4 @@
-import { cn } from "@BrainyNotes/ui/lib/utils";
+import { cn } from "@brainynotes/ui/lib/utils";
 import type * as React from "react";
 
 function MessageGroup({ className, ...props }: React.ComponentProps<"div">) {

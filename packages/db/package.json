@@ -1,5 +1,5 @@
 {
-	"name": "@BrainyNotes/db",
+	"name": "@brainynotes/db",
 	"type": "module",
 	"exports": {
 		".": {
@@ -17,14 +17,14 @@
 		"db:migrate": "drizzle-kit migrate"
 	},
 	"dependencies": {
-		"@BrainyNotes/env": "workspace:*",
+		"@brainynotes/env": "workspace:*",
 		"@neondatabase/serverless": "^1.1.0",
 		"dotenv": "catalog:",
 		"drizzle-orm": "^0.45.2",
 		"zod": "catalog:"
 	},
 	"devDependencies": {
-		"@BrainyNotes/config": "workspace:*",
+		"@brainynotes/config": "workspace:*",
 		"drizzle-kit": "^0.31.10",
 		"typescript": "catalog:"
 	}

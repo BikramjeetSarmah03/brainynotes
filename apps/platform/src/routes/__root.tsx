@@ -1,4 +1,4 @@
-import { Toaster } from "@BrainyNotes/ui/components/sonner";
+import { Toaster } from "@brainynotes/ui/components/sonner";
 import {
 	createRootRouteWithContext,
 	HeadContent,
@@ -18,11 +18,11 @@ export const Route = createRootRouteWithContext<RouterAppContext>()({
 	head: () => ({
 		meta: [
 			{
-				title: "BrainyNotes",
+				title: "brainynotes",
 			},
 			{
 				name: "description",
-				content: "BrainyNotes is a web application",
+				content: "brainynotes is a web application",
 			},
 		],
 		links: [

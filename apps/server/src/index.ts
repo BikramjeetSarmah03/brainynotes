@@ -1,5 +1,5 @@
-import { auth } from "@BrainyNotes/auth";
-import { env } from "@BrainyNotes/env/server";
+import { auth } from "@brainynotes/auth";
+import { env } from "@brainynotes/env/server";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { logger } from "hono/logger";

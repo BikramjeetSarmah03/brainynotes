@@ -1,6 +1,6 @@
-import { createDb } from "@BrainyNotes/db";
-import * as schema from "@BrainyNotes/db/schema/auth";
-import { env } from "@BrainyNotes/env/server";
+import { createDb } from "@brainynotes/db";
+import * as schema from "@brainynotes/db/schema/auth";
+import { env } from "@brainynotes/env/server";
 import { betterAuth } from "better-auth";
 import { drizzleAdapter } from "better-auth/adapters/drizzle";
 

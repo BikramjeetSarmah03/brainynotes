@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@BrainyNotes/ui/components/button";
-import { cn } from "@BrainyNotes/ui/lib/utils";
+import { Button } from "@brainynotes/ui/components/button";
+import { cn } from "@brainynotes/ui/lib/utils";
 import {
 	MessageScroller as MessageScrollerPrimitive,
 	useMessageScroller,

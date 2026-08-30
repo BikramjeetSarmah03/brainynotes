@@ -1,4 +1,4 @@
-import { cn } from "@BrainyNotes/ui/lib/utils";
+import { cn } from "@brainynotes/ui/lib/utils";
 import { cva, type VariantProps } from "class-variance-authority";
 
 function Empty({ className, ...props }: React.ComponentProps<"div">) {

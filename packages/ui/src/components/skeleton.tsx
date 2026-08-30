@@ -1,4 +1,4 @@
-import { cn } from "@BrainyNotes/ui/lib/utils";
+import { cn } from "@brainynotes/ui/lib/utils";
 
 function Skeleton({ className, ...props }: React.ComponentProps<"div">) {
 	return (

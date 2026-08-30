@@ -1,5 +1,5 @@
 {
-	"name": "server",
+	"name": "@brainynotes/server",
 	"type": "module",
 	"main": "src/index.ts",
 	"scripts": {
@@ -10,16 +10,16 @@
 		"start": "bun run dist/index.mjs"
 	},
 	"dependencies": {
-		"@BrainyNotes/auth": "workspace:*",
-		"@BrainyNotes/db": "workspace:*",
-		"@BrainyNotes/env": "workspace:*",
+		"@brainynotes/auth": "workspace:*",
+		"@brainynotes/db": "workspace:*",
+		"@brainynotes/env": "workspace:*",
 		"better-auth": "catalog:",
 		"dotenv": "catalog:",
 		"hono": "^4.12.32",
 		"zod": "catalog:"
 	},
 	"devDependencies": {
-		"@BrainyNotes/config": "workspace:*",
+		"@brainynotes/config": "workspace:*",
 		"@types/bun": "catalog:",
 		"tsdown": "^0.22.14",
 		"typescript": "catalog:"

@@ -1,5 +1,5 @@
 {
-	"name": "web",
+	"name": "@brainynotes/platform",
 	"version": "0.0.0",
 	"private": true,
 	"type": "module",
@@ -11,8 +11,8 @@
 		"check-types": "vite build && tsc --noEmit"
 	},
 	"dependencies": {
-		"@BrainyNotes/env": "workspace:*",
-		"@BrainyNotes/ui": "workspace:*",
+		"@brainynotes/env": "workspace:*",
+		"@brainynotes/ui": "workspace:*",
 		"@tailwindcss/vite": "^4.3.3",
 		"@tanstack/react-form": "^1.33.2",
 		"@tanstack/react-router": "^1.170.18",
@@ -26,7 +26,7 @@
 		"zod": "catalog:"
 	},
 	"devDependencies": {
-		"@BrainyNotes/config": "workspace:*",
+		"@brainynotes/config": "workspace:*",
 		"@tanstack/react-router-devtools": "^1.167.0",
 		"@tanstack/router-plugin": "^1.168.23",
 		"@types/node": "^26.2.0",

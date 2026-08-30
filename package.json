@@ -1,5 +1,5 @@
 {
-	"name": "BrainyNotes",
+	"name": "brainynotes",
 	"private": true,
 	"workspaces": {
 		"packages": [
@@ -29,20 +29,20 @@
 		"check-types": "turbo run check-types",
 		"dev:web": "turbo run dev -F web --",
 		"dev:server": "turbo run dev -F server --",
-		"db:push": "turbo run db:push -F @BrainyNotes/db --",
-		"db:studio": "turbo run db:studio -F @BrainyNotes/db --",
-		"db:generate": "turbo run db:generate -F @BrainyNotes/db --",
-		"db:migrate": "turbo run db:migrate -F @BrainyNotes/db --",
+		"db:push": "turbo run db:push -F @brainynotes/db --",
+		"db:studio": "turbo run db:studio -F @brainynotes/db --",
+		"db:generate": "turbo run db:generate -F @brainynotes/db --",
+		"db:migrate": "turbo run db:migrate -F @brainynotes/db --",
 		"check": "biome check --write .",
 		"prepare": "husky"
 	},
 	"dependencies": {
-		"@BrainyNotes/env": "workspace:*",
+		"@brainynotes/env": "workspace:*",
 		"dotenv": "catalog:",
 		"zod": "catalog:"
 	},
 	"devDependencies": {
-		"@BrainyNotes/config": "workspace:*",
+		"@brainynotes/config": "workspace:*",
 		"@biomejs/biome": "^2.5.11",
 		"@types/bun": "catalog:",
 		"husky": "^9.1.7",

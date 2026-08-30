@@ -1,4 +1,4 @@
-import { env } from "@BrainyNotes/env/web";
+import { env } from "@brainynotes/env/web";
 import { createAuthClient } from "better-auth/react";
 
 function getServerUrl(url: string) {

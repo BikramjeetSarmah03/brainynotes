@@ -11,7 +11,7 @@
 		"rootDirs": ["."],
 		"paths": {
 			"@/*": ["./src/*"],
-			"@BrainyNotes/ui/*": ["../../packages/ui/src/*"]
+			"@brainynotes/ui/*": ["../../packages/ui/src/*"]
 		}
 	}
 }

@@ -1,4 +1,4 @@
-# BrainyNotes
+# brainynotes
 
 This project was created with [Better-T-Stack](https://github.com/AmanVarshney01/create-better-t-stack), a modern TypeScript stack that combines React, TanStack Router, Hono, and more.
 
@@ -66,7 +66,7 @@ npx shadcn@latest add accordion dialog popover sheet table -c packages/ui
 Import shared components like this:
 
 ```tsx
-import { Button } from "@BrainyNotes/ui/components/button";
+import { Button } from "@brainynotes/ui/components/button";
 ```
 
 ### Add app-specific blocks
@@ -81,7 +81,7 @@ If you want to add app-specific blocks instead of shared primitives, run the sha
 ## Project Structure
 
 ```
-BrainyNotes/
+brainynotes/
 ├── apps/
 │   ├── web/         # Frontend application (React + TanStack Router)
 │   └── server/      # Backend API (Hono)

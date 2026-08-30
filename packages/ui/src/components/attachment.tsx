@@ -1,7 +1,7 @@
-import { Button } from "@BrainyNotes/ui/components/button";
-import { cn } from "@BrainyNotes/ui/lib/utils";
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
+import { Button } from "@brainynotes/ui/components/button";
+import { cn } from "@brainynotes/ui/lib/utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import type * as React from "react";
 

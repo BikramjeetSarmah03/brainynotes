@@ -2,10 +2,10 @@
 /** biome-ignore-all lint/a11y/useKeyWithClickEvents: <kk> */
 "use client";
 
-import { Button } from "@BrainyNotes/ui/components/button";
-import { Input } from "@BrainyNotes/ui/components/input";
-import { Textarea } from "@BrainyNotes/ui/components/textarea";
-import { cn } from "@BrainyNotes/ui/lib/utils";
+import { Button } from "@brainynotes/ui/components/button";
+import { Input } from "@brainynotes/ui/components/input";
+import { Textarea } from "@brainynotes/ui/components/textarea";
+import { cn } from "@brainynotes/ui/lib/utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import type * as React from "react";
 

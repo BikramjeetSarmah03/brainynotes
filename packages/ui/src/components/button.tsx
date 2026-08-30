@@ -1,5 +1,5 @@
-import { cn } from "@BrainyNotes/ui/lib/utils";
 import { Button as ButtonPrimitive } from "@base-ui/react/button";
+import { cn } from "@brainynotes/ui/lib/utils";
 import { cva, type VariantProps } from "class-variance-authority";
 
 const buttonVariants = cva(

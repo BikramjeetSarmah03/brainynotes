@@ -1,11 +1,11 @@
 {
-	"extends": "@BrainyNotes/config/tsconfig.base.json",
+	"extends": "@brainynotes/config/tsconfig.base.json",
 	"compilerOptions": {
 		"jsx": "react-jsx",
 		"lib": ["ESNext", "DOM", "DOM.Iterable"],
 		"types": [],
 		"paths": {
-			"@BrainyNotes/ui/*": ["./src/*"]
+			"@brainynotes/ui/*": ["./src/*"]
 		}
 	},
 	"include": ["src/**/*.ts", "src/**/*.tsx"],

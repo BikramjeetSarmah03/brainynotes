@@ -1,6 +1,6 @@
-import { Button } from "@BrainyNotes/ui/components/button";
-import { Input } from "@BrainyNotes/ui/components/input";
-import { Label } from "@BrainyNotes/ui/components/label";
+import { Button } from "@brainynotes/ui/components/button";
+import { Input } from "@brainynotes/ui/components/input";
+import { Label } from "@brainynotes/ui/components/label";
 import { useForm } from "@tanstack/react-form";
 import { useNavigate } from "@tanstack/react-router";
 import { toast } from "sonner";

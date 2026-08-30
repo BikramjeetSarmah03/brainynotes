@@ -1,5 +1,5 @@
 {
-	"name": "@BrainyNotes/env",
+	"name": "@brainynotes/env",
 	"version": "0.0.0",
 	"private": true,
 	"type": "module",
@@ -13,7 +13,7 @@
 		"zod": "catalog:"
 	},
 	"devDependencies": {
-		"@BrainyNotes/config": "workspace:*",
+		"@brainynotes/config": "workspace:*",
 		"@types/bun": "catalog:",
 		"typescript": "catalog:"
 	}

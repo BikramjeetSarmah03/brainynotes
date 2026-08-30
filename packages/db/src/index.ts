@@ -1,4 +1,4 @@
-import { env } from "@BrainyNotes/env/server";
+import { env } from "@brainynotes/env/server";
 import { neon } from "@neondatabase/serverless";
 import { drizzle } from "drizzle-orm/neon-http";
 

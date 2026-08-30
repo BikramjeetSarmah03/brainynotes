@@ -1,5 +1,5 @@
 {
-	"name": "@BrainyNotes/auth",
+	"name": "@brainynotes/auth",
 	"type": "module",
 	"exports": {
 		".": {
@@ -11,14 +11,14 @@
 	},
 	"scripts": {},
 	"dependencies": {
-		"@BrainyNotes/db": "workspace:*",
-		"@BrainyNotes/env": "workspace:*",
+		"@brainynotes/db": "workspace:*",
+		"@brainynotes/env": "workspace:*",
 		"better-auth": "catalog:",
 		"dotenv": "catalog:",
 		"zod": "catalog:"
 	},
 	"devDependencies": {
-		"@BrainyNotes/config": "workspace:*",
+		"@brainynotes/config": "workspace:*",
 		"typescript": "catalog:"
 	}
 }

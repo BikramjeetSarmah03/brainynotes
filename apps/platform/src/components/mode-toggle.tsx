@@ -1,10 +1,10 @@
-import { Button } from "@BrainyNotes/ui/components/button";
+import { Button } from "@brainynotes/ui/components/button";
 import {
 	DropdownMenu,
 	DropdownMenuContent,
 	DropdownMenuItem,
 	DropdownMenuTrigger,
-} from "@BrainyNotes/ui/components/dropdown-menu";
+} from "@brainynotes/ui/components/dropdown-menu";
 import { Moon, Sun } from "lucide-react";
 
 import { useTheme } from "@/components/theme-provider";
